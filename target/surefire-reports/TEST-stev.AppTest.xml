@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.007" errors="0" skipped="0" tests="1" name="stev.AppTest">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="Maven"/>
+    <property name="PWD" value="/var/lib/jenkins"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="LC_TIME" value="nl_NL.UTF-8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH" value="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/var/lib/jenkins/bin:/usr/local/java/jdk1.7.0_45/bin:/var/lib/jenkins/bin:/usr/local/java/jre1.7.0_45/bin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="2b4248b6291a59db"/>
+    <property name="POM_ARTIFACTID" value="appnaam"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.boot.class.path" value="/usr/local/java/jre1.7.0_45/lib/resources.jar:/usr/local/java/jre1.7.0_45/lib/rt.jar:/usr/local/java/jre1.7.0_45/lib/sunrsasign.jar:/usr/local/java/jre1.7.0_45/lib/jsse.jar:/usr/local/java/jre1.7.0_45/lib/jce.jar:/usr/local/java/jre1.7.0_45/lib/charsets.jar:/usr/local/java/jre1.7.0_45/lib/jfr.jar:/usr/local/java/jre1.7.0_45/classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="appnaam"/>
+    <property name="XDG_RUNTIME_DIR" value="/run/user/jenkins"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="1.7.0_45-b18"/>
+    <property name="LC_NAME" value="nl_NL.UTF-8"/>
+    <property name="user.name" value="jenkins"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="XDG_SESSION_COOKIE" value="2f6a9045c2bc8db6bf32b2d7517969bf-1390291600.16573-2079568322"/>
+    <property name="LC_IDENTIFICATION" value="nl_NL.UTF-8"/>
+    <property name="LC_ADDRESS" value="nl_NL.UTF-8"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#5"/>
+    <property name="sun.boot.library.path" value="/usr/local/java/jre1.7.0_45/lib/amd64"/>
+    <property name="DISPLAY" value=":0"/>
+    <property name="java.version" value="1.7.0_45"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="TERM" value="xterm"/>
+    <property name="NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat"/>
+    <property name="java.endorsed.dirs" value="/usr/local/java/jre1.7.0_45/lib/endorsed"/>
+    <property name="BUILD_ID" value="2014-01-21_09-55-10"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="LC_MONETARY" value="nl_NL.UTF-8"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="JRE_HOME" value="/usr/local/java/jre1.7.0_45"/>
+    <property name="user.country" value="US"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.home" value="/usr/local/java/jre1.7.0_45"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="3.8.0-19-generic"/>
+    <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="24.45-b08"/>
+    <property name="LC_MEASUREMENT" value="nl_NL.UTF-8"/>
+    <property name="SHLVL" value="1"/>
+    <property name="_" value="/usr/bin/daemon"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="JAVA_HOME" value="/usr/local/java/jdk1.7.0_45"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="LOGNAME" value="jenkins"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/var/lib/jenkins"/>
+    <property name="POM_GROUPID" value="stev"/>
+    <property name="user.home" value="/var/lib/jenkins"/>
+    <property name="BUILD_TAG" value="jenkins-Maven-5"/>
+    <property name="JENKINS_SERVER_COOKIE" value="2b4248b6291a59db"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn"/>
+    <property name="java.class.path" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.4.jar:/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn/boot/plexus-classworlds-2.5.1.jar:/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn /tmp/jetty-0.0.0.0-8080-jenkins.war--any-/webapp/WEB-INF/lib/remoting-2.33.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.4.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.4.jar 55392"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn"/>
+    <property name="MAIL" value="/var/mail/jenkins"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
+    <property name="PATH+MAVEN" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn/bin"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Maven/5/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="LC_NUMERIC" value="nl_NL.UTF-8"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.ext.dirs" value="/usr/local/java/jre1.7.0_45/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="user.dir" value="/home/stev/appnaam"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Maven/"/>
+    <property name="LC_PAPER" value="nl_NL.UTF-8"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn"/>
+    <property name="XAUTHORITY" value="/home/stev/.Xauthority"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="5"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="COLORTERM" value="gnome-terminal"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="maven3.interceptor" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.4.jar"/>
+    <property name="WORKSPACE" value="/var/lib/jenkins/workspace/Maven"/>
+    <property name="maven3.interceptor.common" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.4.jar"/>
+    <property name="LC_TELEPHONE" value="nl_NL.UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="USER" value="jenkins"/>
+    <property name="XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt"/>
+  </properties>
+  <testcase time="0.007" classname="stev.AppTest" name="testApp"/>
+</testsuite>
