@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.013" errors="0" skipped="0" tests="1" name="stev.AppTest">
+<testsuite failures="0" time="0.016" errors="0" skipped="0" tests="1" name="stev.AppTest">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Maven"/>
@@ -22,21 +22,20 @@
     <property name="LC_NAME" value="nl_NL.UTF-8"/>
     <property name="user.name" value="jenkins"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
-    <property name="XDG_SESSION_COOKIE" value="2f6a9045c2bc8db6bf32b2d7517969bf-1390291600.16573-2079568322"/>
+    <property name="XDG_SESSION_COOKIE" value="2f6a9045c2bc8db6bf32b2d7517969bf-1390472021.997373-698266704"/>
     <property name="LC_IDENTIFICATION" value="nl_NL.UTF-8"/>
     <property name="LC_ADDRESS" value="nl_NL.UTF-8"/>
     <property name="user.language" value="en"/>
-    <property name="BUILD_DISPLAY_NAME" value="#13"/>
+    <property name="BUILD_DISPLAY_NAME" value="#14"/>
     <property name="sun.boot.library.path" value="/usr/local/java/jre1.7.0_45/lib/amd64"/>
-    <property name="DISPLAY" value=":0"/>
     <property name="java.version" value="1.7.0_45"/>
     <property name="user.timezone" value="Europe/Amsterdam"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
-    <property name="TERM" value="xterm"/>
+    <property name="TERM" value="linux"/>
     <property name="NLSPATH" value="/usr/dt/lib/nls/msg/%L/%N.cat"/>
     <property name="java.endorsed.dirs" value="/usr/local/java/jre1.7.0_45/lib/endorsed"/>
-    <property name="BUILD_ID" value="2014-01-21_16-06-19"/>
+    <property name="BUILD_ID" value="2014-01-23_11-16-29"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -68,7 +67,7 @@
     <property name="HOME" value="/var/lib/jenkins"/>
     <property name="POM_GROUPID" value="stev"/>
     <property name="user.home" value="/var/lib/jenkins"/>
-    <property name="BUILD_TAG" value="jenkins-Maven-13"/>
+    <property name="BUILD_TAG" value="jenkins-Maven-14"/>
     <property name="JENKINS_SERVER_COOKIE" value="2b4248b6291a59db"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -79,7 +78,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn"/>
     <property name="java.class.path" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.4.jar:/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn/boot/plexus-classworlds-2.5.1.jar:/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn /tmp/jetty-0.0.0.0-8080-jenkins.war--any-/webapp/WEB-INF/lib/remoting-2.33.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.4.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.4.jar 33507"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn /tmp/jetty-0.0.0.0-8080-jenkins.war--any-/webapp/WEB-INF/lib/remoting-2.33.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.4.jar /var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.4.jar 52999"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -89,7 +88,7 @@
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="HUDSON_HOME" value="/var/lib/jenkins"/>
     <property name="PATH+MAVEN" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn/bin"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Maven/13/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Maven/14/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="LC_NUMERIC" value="nl_NL.UTF-8"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
@@ -101,11 +100,9 @@
     <property name="line.separator" value="
 "/>
     <property name="MAVEN_HOME" value="/var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/_usr_bin_mvn"/>
-    <property name="XAUTHORITY" value="/home/stev/.Xauthority"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="13"/>
+    <property name="BUILD_NUMBER" value="14"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="COLORTERM" value="gnome-terminal"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="LANG" value="en_US.UTF-8"/>
     <property name="maven3.interceptor" value="/var/lib/jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.4.jar"/>
@@ -116,5 +113,5 @@
     <property name="USER" value="jenkins"/>
     <property name="XFILESEARCHPATH" value="/usr/dt/app-defaults/%L/Dt"/>
   </properties>
-  <testcase time="0.013" classname="stev.AppTest" name="testApp"/>
+  <testcase time="0.016" classname="stev.AppTest" name="testApp"/>
 </testsuite>
